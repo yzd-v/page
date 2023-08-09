@@ -1,0 +1,478 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>杨震东 Zhendong Yang</title>
+    <link href="./css/style.css" rel="stylesheet" media="all" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-2.2.0.min.js"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/57fb8d417e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript">
+      window.onload = choosePic;
+      var myPix = new Array("./about/yzd.jpeg");
+      function choosePic() {
+        var randomNum = Math.floor(Math.random() * myPix.length);
+        document.getElementById("myPicture").src = myPix[randomNum];
+      }
+      function lastUpdate() {
+        var x = document.lastModified.substr(0, 10);
+        document.getElementById("demo").innerHTML = x;
+      }
+    </script>
+    <script type="text/javascript" src="./js/hidebib.js"></script>
+    <script type="text/javascript" src="./js/loadtxt.js"></script>
+  </head>
+
+  <body onload="lastUpdate()">
+    <div class="content">
+      <div id="container">
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <img
+                  id="myPicture"
+                  src="./about/yzd.jpeg"
+                  style="
+                    float: left;
+                    margin-top: 30px;
+                    margin-left: 30px;
+                    border-radius: 10%;
+                  "
+                  width="160px"
+                />
+              </td>
+              <td>
+                <div id="DocInfo">
+                  <div id="intro">
+                    <h1>杨震东 Zhendong Yang</h1>
+                    <!-- <a target='_blank'
+                        href='https://goo.gl/maps/vfTQ6Gbbg3gNvzTZ8'
+                        title='Location'>
+                        <font size="5"><i class='fas
+                            fa-map-marker-alt'></i></font>
+                      </a> -->
+                    <a
+                      style="color: black"
+                      href="https://www.tsinghua.edu.cn/"
+                      >Tsinghua University</a
+                    ><br />
+                    <br />
+                    <a href="mailto: yangzd21@mails.tsinghua.edu.cn">
+                      <span
+                        class="fa fa-envelope"
+                        style="color: navy; font-size: 20px"
+                      >
+                        <span style="font-family: Optima Bold"
+                          >jinglin.stu</span
+                        >
+                        <span
+                          class="fa fa-at"
+                          style="color: navy; font-size: 20px"
+                          ><span style="font-family: Optima Bold">
+                            gmail.com</span
+                          ></span
+                        ></span
+                      ></a
+                    >
+                    <br />
+                  </div>
+                  <br />
+                  <ul class="icon-list">
+                    <a
+                      style="color: black"
+                      href="https://scholar.google.com/citations?user=M9qKrogAAAAJ&hl=en"
+                    >
+                      <span class="ai ai-google-scholar fa-xl"></span>
+                    </a>
+
+                    <a
+                      style="color: black"
+                      href="https://github.com/yzd-v"
+                    >
+                      <span class="fa-brands fa-github fa-xl"></span>
+                    </a>
+
+
+                    <span style="color: gray; font-weight: normal">|</span>
+
+                    <a
+                      style="color: black"
+                      href="https://www.zhihu.com/people/mei-suo-bu-da-mi-ya-ping-yuan-71"
+                    >
+                      <span class="fa-brands fa-zhihu fa-xl"></span>
+                    </a>
+
+                  </ul>
+
+                  <br />
+                </div>
+                <br />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <tr>
+            <td>
+              <br />
+              <h1>Biography</h1>
+
+              I am currently a 2nd-Year Master student at 
+              <a href="https://www.sigs.tsinghua.edu.cn/">Shenzhen International Graduate School</a>,
+              <strong
+                >Tsinghua University</strong
+              >,
+
+            </td>
+          </tr>
+        </table>
+
+        <!-- <a href="https://www.youtube.com/channel/UCicL0Co86tGbzoV2heWiEaA"
+          ><img
+            src="https://img.shields.io/youtube/channel/views/UCicL0Co86tGbzoV2heWiEaA?logo=youtube&labelColor=ce4630&style=flat-plastic"
+        /></a> -->
+        <br /><br />
+
+        <h1 id="citation">Publications</h1>
+
+        <!-- Favorite papers are
+        <span style="background-color: lightgoldenrodyellow">highlighted</span>. -->
+
+        <br />
+        <table class="pub_table">
+          <tr id="pose">
+            <td class="pub_td1">
+              <img src="./about/pipeline.png" />
+             </td>
+            <td class="pub_td2">
+              <b
+                >Focal and Global Knowledge Distillation for Detectors
+                &nbsp;</b
+              >
+              <a href="https://github.com/yzd-v/FGD">
+                <img alt="GitHub stars" style="vertical-align: middle" src="https://img.shields.io/github/stars/yzd-v/FGD?style=social">
+              </a>
+              <br /><br />
+              <strong>Zhendong Yang</strong>,
+              <a >Zhe Li</a>,
+              <a >Xiaohu Jiang</a>,
+              <a >Yuan Gong</a>,
+              <a >Zehuan Yuan</a>,
+              <a >Danpei Zhao</a>,
+              <a >Chun Yuan</a>
+              
+              <br />
+              <i
+                >Computer Vision and Pattern Recognition 2022 (<strong
+                  style="color: brown"
+                  >CVPR 2022</strong
+                >)</i>
+              <br /><br />
+              <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Yang_Focal_and_Global_Knowledge_Distillation_for_Detectors_CVPR_2022_paper.html"
+                ><i class="fas fa-home" aria-hidden="true">&nbsp;</i
+                >Paper&nbsp;</a
+              >
+              <a href=""
+                ><i class="fa fa-file-lines" aria-hidden="true">&nbsp;</i></a
+              ><a href="https://zhuanlan.zhihu.com/p/477707304">zhihu</a>
+              <pre id="carbib" xml:space="preserve" style="display: none"></pre>
+              <span id="carabs" style="display: none"></span>
+            </td>
+          </tr>
+
+          <!-- <tr id="osx">
+            <td class="pub_td1">
+              <a href="https://osx-ubody.github.io/">
+                <img src="./about/osx.gif" />
+              </a>
+            </td>
+            <td class="pub_td2">
+              <b
+                >One-Stage 3D Whole-Body Mesh Recovery with Component Aware Transformer
+                &nbsp;</b
+              >
+              <a href="https://github.com/IDEA-Research/OSX">
+                <img alt="GitHub stars" style="vertical-align: middle" src="https://img.shields.io/github/stars/IDEA-Research/OSX?style=social">
+              </a>
+              <iframe
+                frameborder="0"
+                scrolling="0"
+                width="100"
+                height="20"
+              ></iframe>
+              <br /><br />
+              <strong>Jing Lin</strong>,
+              <a href="https://ailingzeng.site">Ailing Zeng</a>,
+              <a href="https://www.sigs.tsinghua.edu.cn/whq/">Haoqian Wang</a>,
+              <a href="https://www.leizhang.org/">Lei Zhang</a>,
+              <a href="https://yu-li.github.io/">Yu Li</a>
+              
+              <br />
+              <i
+                >Computer Vision and Pattern Recognition 2023 (<strong
+                  style="color: brown"
+                  >CVPR 2023</strong
+                >)</i>
+              <br /><br />
+              <a href="https://osx-ubody.github.io/"
+                ><i class="fas fa-home" aria-hidden="true">&nbsp;</i
+                >Home&nbsp;</a
+              >
+              <a href=""
+                ><i class="fa fa-file-lines" aria-hidden="true">&nbsp;</i></a
+              >[<a href="http://arxiv.org/abs/2303.16160">arXiv</a>,
+              <a href="https://readpaper.com/paper/1698361644206378752"
+                >Reader</a
+              >]
+              <a href="https://www.youtube.com/watch?v=s0cG3OVXQUo&t=2s"
+                ><i class="fa fa-video" aria-hidden="true">&nbsp;</i
+                >Video&nbsp;</a
+              >  
+              <pre id="carbib" xml:space="preserve" style="display: none"></pre>
+              <span id="carabs" style="display: none"></span>
+            </td>
+          </tr>
+
+          <tr id="fgst">
+            <td class="pub_td1">
+              <a href="https://github.com/linjing7/VR-Baseline">
+                <img src="./about/fgst.gif" />
+              </a>            
+            </td>
+            <td class="pub_td2">
+              <b
+                >Flow-Guided Sparse Transformer for Video Deblurring
+                &nbsp;</b
+              >
+              <a href="https://github.com/linjing7/VR-Baseline">
+                <img alt="GitHub stars" style="vertical-align: middle" src="https://img.shields.io/github/stars/linjing7/VR-Baseline?style=social">
+              </a>
+              <br /><br />
+              <strong>Jing Lin*</strong>,
+              <a href="https://caiyuanhao1998.github.io">Yuanhao Cai*</a>,
+              <a href="https://scholar.google.com/citations?user=a_WRvyIAAAAJ&hl=zh-CN">Xiaowan Hu</a>,
+              <a href="https://www.sigs.tsinghua.edu.cn/whq/">Haoqian Wang</a>,
+              <a href="https://scholar.google.com/citations?user=JPUwfAMAAAAJ&hl=zh-CN">Youliang Yan</a>,
+              <a href="https://xueyizou.github.io/">Xueyi Zou</a>,
+              <a href="https://henghuiding.github.io/">Henghui Ding</a>,
+              <a href="https://yulunzhang.com/">Yulun Zhang</a>,
+              <a href="https://people.ee.ethz.ch/~timofter/">Radu Timofte</a>,
+              <a href="https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html">Luc Van Gool</a>
+              
+              <br />
+              <i
+                >International Conference on Machine Learning 2022 (<strong
+                  style="color: brown"
+                  >ICML 2022</strong
+                >)</i>
+              <br /><br />
+              <a href="https://github.com/linjing7/VR-Baseline"
+                ><i class="fas fa-home" aria-hidden="true">&nbsp;</i
+                >Home&nbsp;</a
+              >
+              <a href=""
+                ><i class="fa fa-file-lines" aria-hidden="true">&nbsp;</i></a
+              >[<a href="https://arxiv.org/abs/2201.01893">arXiv</a>,
+              <a href="https://readpaper.com/paper/4577344522149699585"
+                >Reader</a
+              >]
+  
+              <pre id="carbib" xml:space="preserve" style="display: none"></pre>
+              <span id="carabs" style="display: none"></span>
+            </td>
+          </tr>
+
+          <tr id="s2svr">
+            <td class="pub_td1">
+              <a href="https://github.com/linjing7/VR-Baseline">
+                <img src="./about/s2svr.gif" />
+              </a>               
+            </td>
+            <td class="pub_td2">
+              <b
+                >Unsupervised Flow-Aligned Sequence-to-Sequence Learning for Video Restoration
+                &nbsp;</b
+              >
+              <a href="https://github.com/linjing7/VR-Baseline">
+                <img alt="GitHub stars" style="vertical-align: middle" src="https://img.shields.io/github/stars/linjing7/VR-Baseline?style=social">
+              </a>
+              <br /><br />
+              <strong>Jing Lin*</strong>,
+              <a href="https://scholar.google.com/citations?user=a_WRvyIAAAAJ&hl=zh-CN">Xiaowan Hu*</a>,
+              <a href="https://caiyuanhao1998.github.io">Yuanhao Cai</a>,
+              <a href="https://www.sigs.tsinghua.edu.cn/whq/">Haoqian Wang</a>,
+              <a href="https://scholar.google.com/citations?user=JPUwfAMAAAAJ&hl=zh-CN">Youliang Yan</a>,
+              <a href="https://xueyizou.github.io/">Xueyi Zou</a>,
+              <a href="https://yulunzhang.com/">Yulun Zhang</a>,
+              <a href="https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html">Luc Van Gool</a>
+              <br />
+              <i
+                >International Conference on Machine Learning 2022 (<strong
+                  style="color: brown"
+                  >ICML 2022</strong
+                >)</i>
+              <br /><br />
+              <a href="https://github.com/linjing7/VR-Baseline"
+                ><i class="fas fa-home" aria-hidden="true">&nbsp;</i
+                >Home&nbsp;</a
+              >
+              <a href=""
+                ><i class="fa fa-file-lines" aria-hidden="true">&nbsp;</i></a
+              >[<a href="https://arxiv.org/abs/2205.10195">arXiv</a>,
+              <a href="https://readpaper.com/paper/688616683445972992"
+                >Reader</a
+              >]
+  
+              <pre id="carbib" xml:space="preserve" style="display: none"></pre>
+              <span id="carabs" style="display: none"></span>
+            </td>
+          </tr>
+
+          <tr id="mst">
+            <td class="pub_td1">
+              <a href="https://github.com/caiyuanhao1998/MST">
+                <img src="./about/mst.png" />
+              </a>             
+            </td>
+            <td class="pub_td2">
+              <b
+                >Mask-Guided Spectral-Wise Transformer for Efficient Hyperspectral Image Reconstruction
+                &nbsp;</b
+              >
+              <a href="https://github.com/caiyuanhao1998/MST">
+                <img alt="GitHub stars" style="vertical-align: middle" src="https://img.shields.io/github/stars/caiyuanhao1998/MST?style=social">
+              </a>
+              <br /><br />
+              <a href="https://caiyuanhao1998.github.io">Yuanhao Cai*</a>,
+              <strong>Jing Lin*</strong>,
+              <a href="https://scholar.google.com/citations?user=a_WRvyIAAAAJ&hl=zh-CN">Xiaowan Hu</a>,
+              <a href="https://www.sigs.tsinghua.edu.cn/whq/">Haoqian Wang</a>,
+              <a href="https://xygroup6.github.io/xygroup/">Xin Yuan</a>,
+              <a href="https://henghuiding.github.io/">Henghui Ding</a>,
+              <a href="https://yulunzhang.com/">Yulun Zhang</a>,
+              <a href="https://people.ee.ethz.ch/~timofter/">Radu Timofte</a>,
+              <a href="https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html">Luc Van Gool</a>
+              <br />
+              <i
+                >Computer Vision and Pattern Recognition (<strong
+                  style="color: brown"
+                  >CVPR 2022</strong
+                >)</i>
+              <br /><br />
+              <a href="https://github.com/caiyuanhao1998/MST"
+                ><i class="fas fa-home" aria-hidden="true">&nbsp;</i
+                >Home&nbsp;</a
+              >
+              <a href=""
+                ><i class="fa fa-file-lines" aria-hidden="true">&nbsp;</i></a
+              >[<a href="https://arxiv.org/abs/2111.07910">arXiv</a>,
+              <a href="https://readpaper.com/paper/4558558423944273921"
+                >Reader</a
+              >]
+  
+              <pre id="carbib" xml:space="preserve" style="display: none"></pre>
+              <span id="carabs" style="display: none"></span>
+            </td>
+          </tr>
+
+          <tr id="cst">
+            <td class="pub_td1">
+              <a href="https://github.com/caiyuanhao1998/MST">
+                <img src="./about/cst.gif" />
+              </a>              
+            </td>
+            <td class="pub_td2">
+              <b
+                >Coarse-to-Fine Sparse Transformer for Hyperspectral Image Reconstruction
+                &nbsp;</b
+              >
+              <a href="https://github.com/caiyuanhao1998/MST">
+                <img alt="GitHub stars" style="vertical-align: middle" src="https://img.shields.io/github/stars/caiyuanhao1998/MST?style=social">
+              </a>
+              <br /><br />
+              <a href="https://caiyuanhao1998.github.io">Yuanhao Cai*</a>,
+              <strong>Jing Lin*</strong>,
+              <a href="https://scholar.google.com/citations?user=a_WRvyIAAAAJ&hl=zh-CN">Xiaowan Hu</a>,
+              <a href="https://www.sigs.tsinghua.edu.cn/whq/">Haoqian Wang</a>,
+              <a href="https://xygroup6.github.io/xygroup/">Xin Yuan</a>,
+              <a href="https://yulunzhang.com/">Yulun Zhang</a>,
+              <a href="https://people.ee.ethz.ch/~timofter/">Radu Timofte</a>,
+              <a href="https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html">Luc Van Gool</a>
+              <br />
+              <i
+                >European Conference on Computer Vision 2022 (<strong
+                  style="color: brown"
+                  >ECCV 2022</strong
+                >)</i>
+              <br /><br />
+              <a href="https://github.com/caiyuanhao1998/MST"
+                ><i class="fas fa-home" aria-hidden="true">&nbsp;</i
+                >Home&nbsp;</a
+              >
+              <a href=""
+                ><i class="fa fa-file-lines" aria-hidden="true">&nbsp;</i></a
+              >[<a href="https://arxiv.org/abs/2203.04845">arXiv</a>,
+              <a href="https://readpaper.com/paper/661826470455304192"
+                >Reader</a
+              >]
+  
+              <pre id="carbib" xml:space="preserve" style="display: none"></pre>
+              <span id="carabs" style="display: none"></span>
+            </td>
+          </tr> -->
+
+
+        </table>
+        
+        <!-- <h1>Honors & Awards</h1>
+        <ul>
+          <li>
+            Winner of NTIRE Spectral Reconstruction Challenge at CVPR 2022
+          </li>
+          <li>
+            Third Place of NTIRE Video Super-Resolution Challenge at CVPR 2021
+          </li>
+          <li>
+            National Scholarship (2019)
+          </li>
+          <li>
+            First Class Scholarship (2019, 2020, 2022)
+          </li>
+        </ul> -->
+
+        <h1>Academic Service</h1>
+        <ul>
+          <li>
+            <strong>Reviewers of</strong>: CVPR, ECCV, ICCV, NeurIPS
+          </li>
+        </ul>
+        <div align="center">
+          <div style="width: 200px; height: 300px">
+            <script
+              type="text/javascript"
+              src="//rf.revolvermaps.com/0/0/6.js?i=5hhec4lz2y4&amp;m=1&amp;c=ff0000&amp;cr1=ffffff&amp;f=ubuntu&amp;l=0&amp;s=300&amp;bv=100&amp;hi=20"
+              async="async"
+            ></script>
+          </div>
+          <br />
+          <!-- <strong -->
+            last updated at
+            <span style="color: blue" id="demo"></span>.
+          <br />
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>
